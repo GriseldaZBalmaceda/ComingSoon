@@ -1,0 +1,30 @@
+body,html{
+    height: 100%;
+    margin:0;
+   
+}
+h1{
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Libre Baskerville', serif; */
+   /* font-family: 'Volkhov', serif; */
+}
+.bgimg{
+    background-image:url("cover-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.middle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center
+}
+.fab{
+    color:black;
+    font-size: 3em;
+    padding: 10px;
+}
